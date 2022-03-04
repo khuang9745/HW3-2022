@@ -153,7 +153,7 @@ img{
 
 #about, #clients, #method, #contant{
   text-align: center;
-  max-height: 100px;
+  vmax: 25%;
   overflow: scroll;
 }
 
