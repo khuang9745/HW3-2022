@@ -153,13 +153,13 @@ img{
 
 #about, #clients, #method, #contant{
   text-align: center;
-  max-height: 25vh;
-  overflow: scroll;
+  vmax: 25;
+  overflow: scroll; 
 }
 
 @media screen and (min-width: 700px){
   nav{
-    /* padding-top: 35px; */
+    /*padding-top: 35px; */
     text-align: right;
 
   }
