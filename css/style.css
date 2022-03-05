@@ -159,7 +159,7 @@ img{
 
 @media screen and (min-width: 700px){
   nav{
-    padding-top: 35px;
+    /* padding-top: 35px; */
     text-align: right;
 
   }
