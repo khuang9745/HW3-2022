@@ -118,7 +118,7 @@ a:focus{
 
 .about, .clients, .method, .contact{
   grid-column: 2;
-  z-index: 2;
+  z-index: 5;
 }
 
 
