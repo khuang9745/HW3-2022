@@ -153,13 +153,13 @@ img{
 
 #about, #clients, #method, #contant{
   align-self: center;
-  height: 25vh;
+  max-height: 25vh;
   overflow: scroll;
 }
 
 .text{
   align-self: center;
-  height: 25vh;
+  max-height: 25vh;
   overflow: scroll;
 }
 
