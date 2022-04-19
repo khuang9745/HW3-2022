@@ -26,7 +26,7 @@ h2{
 
 nav{
   background-color: #ddd;
-  padding: 25px 10px;
+  padding: 25px 10px;;    
   text-align: left;   
 }
 
@@ -106,7 +106,7 @@ a:focus{
 
 
 .intro{
-  background: #DDDDDD url("../images/header.jpg");
+  background: url("../images/header.jpg") #DDDDDD;
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -118,7 +118,7 @@ a:focus{
 
 .about, .clients, .method, .contact{
   grid-column: 2;
-  z-index: 5;
+  z-index: 2;
 }
 
 
@@ -128,7 +128,7 @@ img{
 
 
 .about-image, .clients-image, .method-image, .contact-image{
-  grid-column: 1 / span 3;
+  grid-column: 1 / 4;
   max-height: 500px;
   overflow: hidden;
 
@@ -152,9 +152,15 @@ img{
 }
 
 #about, #clients, #method, #contant{
-  text-align: center;
-  max-height: 25vh;
-  overflow: scroll; 
+  align-self: center;
+  height: 25vh;
+  overflow: scroll;
+}
+
+.text{
+  align-self: center;
+  height: 25vh;
+  overflow: scroll;
 }
 
 @media screen and (min-width: 700px){
@@ -171,7 +177,7 @@ img{
 
   
   /* Requirements 12-15 here: */
-  a.skip: focus{
+  a.skip:focus{
     text-align: left;
     margin-top: 20px;
 
@@ -190,6 +196,8 @@ img{
   .clients, .contactm .about-image, .method-image{
     grid-column: 2 / span 2;
   }
+  
+  
 
 }
 
